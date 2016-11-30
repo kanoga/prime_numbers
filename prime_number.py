@@ -9,7 +9,7 @@ def isPrime(number):
 		prime = True
 		for j in range(2,1):
 			if i % j == 0:
-				print == False
+				prime == False
 		if prime:
 			a_list.append(i)
 	return(a_list)
