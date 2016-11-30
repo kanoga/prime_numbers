@@ -1,6 +1,8 @@
 def isPrime(number):
     if isinstance(number,float):
         return "The number must be a whole number"
+    if isinstance(number,tuple):
+        return "The input must not be a tuple"
 	#getting the prime numbers between 0 and the number
 	a_list = [2]
 	for i in range(3,number+1):
