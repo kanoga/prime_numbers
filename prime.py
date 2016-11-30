@@ -7,6 +7,8 @@ def isPrime(number):
         return "The input must not be a tuple"
     if (number>1000):
         return "large numbers not allowed!!!"
+    if isinstance(number,bool):
+        return "The number must not be a boolean"
 	#getting the prime numbers between 0 and the number
 	a_list = [2]
 	for i in range(3,number+1):
