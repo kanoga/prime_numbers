@@ -1,6 +1,8 @@
 def isPrime(number):
+    #check if number is float
     if isinstance(number,float):
         return "The number must be a whole number"
+        #check if number is tuple
     if isinstance(number,tuple):
         return "The input must not be a tuple"
     if (number>1000):
