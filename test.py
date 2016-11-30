@@ -9,4 +9,4 @@ if __name__ == "__main__":
         self.assertEqual(isPrime(0), "The input must be a positive non zero number")
 
     def test_for_not_boolean(self):
-        self.assertNotEqual(isPrime(0.5), "The input should not be boolean")
+        self.assertNotEqual(isPrime(0.5), "The input should be a whole number")
