@@ -6,7 +6,7 @@ class PrimeTests(unittest.TestCase):
 	def test_input_must_not_be_a_tuple(self):
 		self.assertEqual(isPrime((100)),"The number must be a whole number")
 	def test_not_big_integer(self):
-		self.assertTrue(isPrime(>1000),'large numbers not allowed!!!')
+		self.assertTrue(isPrime(1000),'large numbers not allowed!!!')
 
 if __name__ == 'main':
 	unittest.main()

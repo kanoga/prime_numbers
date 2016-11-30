@@ -1,4 +1,6 @@
 def isPrime(number):
+    if (number>=1000):
+        print "number too large!!!"
     if isinstance(number,float):
         return "The number must be a whole number"
     if isinstance(number,tuple):
@@ -13,3 +15,4 @@ def isPrime(number):
 		if prime:
 			a_list.append(i)
 	return(a_list)
+    
