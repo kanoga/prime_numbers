@@ -5,6 +5,6 @@ class PrimeTests(unittest.TestCase):
         self.assertEqual(isPrime(1),"The input must be a number only")
 
     def test_number_is_int(self):
-		self.assertIsInstance(isPrime(int)) "The input must be an integer"
+        self.assertIsInstance(isPrime(int), "The input must be an integer")
 if __name__ == "__main__":
     	unittest.main()
